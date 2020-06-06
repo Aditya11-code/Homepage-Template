@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+  *{
+  box-sizing: border-box;  
+}
+body{
+    margin: 0;
+}
+.bg{
+    background-color: rgb(31,41,51);
+}
+#navbar{
+    overflow: visible;
+    background-color: rgb(31,41,51);
+    padding: 20px 30px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+#navbar a{
+    font-family:'Abril Fatface', cursive;
+    float: left;
+    color: #fff ;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+}
+#navbar img{
+    margin-left: 30px;
+    top: 0;
+   width: 140px;
+   height: 80px;
+}
+#navbar a:hover{
+    background-color: #DDD;
+    color:black;
+}
+#navbar a.active {
+    background-color: dodgerblue;
+    color:#FFF;
+}
+#navbar-right{
+    float: right;
+}
+
+.content{
+    overflow: visible;
+    background-color: rgb(236, 233, 233);
+    transition: 0.4s;
+    margin: 150px;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content h1{ 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.content .part1{
+    font-size: 30px;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    background-color: gray;
+    width: 80%;
+    margin-top: 160px;
+}
+#part2 img{
+    float: left;
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+}
+.part2-content{
+    font-family: 'Acme', sans-serif;
+    margin-top: 150px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.content2{
+        font-size: 25px;
+        font-family: 'Courier Prime', monospace;
+        color: rgb(94, 91, 91);
+}
+
+#part3 img{
+    float: right;
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+}
+.part3-content{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.content3{
+    font-size: 25px;
+    font-family: 'Courier Prime', monospace;
+    color: rgb(94, 91, 91);
+}
+#part4 img{
+    float: left;
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+}
+.part4-content{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.content4{
+    font-size: 25px;
+    font-family: 'Courier Prime', monospace;
+    color: rgb(94,91,91);
+}
+#part5 img{
+    float: right;
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+}
+.part5-content{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    margin-top: 220px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.content5{
+    font-size: 25px;
+    font-family: 'Courier Prime', monospace;
+    color: rgb(94,91,91);
+}
+.part6{
+    height: 350px;
+    overflow: hidden;
+    background-color: rgb(236, 233, 233);
+}
+.part6-head{
+    margin-left: 10px;
+    font-family: 'Acme', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+.part6-content{
+    margin-left: 150px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 25px;
+}
+.space6-7{
+    overflow: hidden;
+    background-color: rgb(31,41,51);
+    height: 60px;
+}
+.part7{
+    height: 350px;
+    overflow: hidden;
+    background-color: rgb(236, 233, 233);
+}
+.part7-head{
+    margin-left: 10px;
+    font-family: 'Acme', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+.space7-foot{
+overflow: hidden;
+background-color: rgb(31,41,51);
+height: 60px;
+}
+footer{
+    overflow: hidden;
+    background-color: rgb(224, 223, 223);
+    height: 150px;
+}
+.e-mail{
+    width: 300px;
+    border: none;
+    padding: 8px;
+    margin-left: 100px;
+    margin-top: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+.e-mail-submit{
+    margin-left: 30px;
+    margin-top: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 7px #999;
+}
+.e-mail-submit:hover{
+    background-color: rgb(172, 7, 7) ;
+}
+.e-mail-submit:active{
+    background-color: rgb(172, 7, 7);
+    transform: translateY(4px);
+    box-shadow: 0 5px #666
+}
+#foot a:hover img{
+    background-color: rgb(241, 76, 76);
+    
+}
+#insta-logo{
+    margin-top: 15px;
+    padding: 17px;
+    margin-left: 100px;
+    width: 65px;
+    height: auto;
+}
+#linkedin-logo{
+    padding: 17px;
+    width: 65px;
+    height: auto;
+}
+#fb-logo{
+    padding: 17px;
+    width: 65px;
+    height: auto;
+}
+.last{
+    padding-left: 750px;
+    font-weight: 800;
+}
+.last-link{
+    text-decoration: none;
+    color: blue;
+}
+.last-link:hover{
+    background-color: white;
+    color: blue;
+}
+@media screen and (max-width:600px){
+    #navbar{
+        padding: 10px 10px !important;
+    }
+    #navbar a{
+        font-size: 15px;
+        line-height: 10px;
+        font-family:'Abril Fatface', cursive;
+    }
+    .content{
+        overflow: visible;
+        background-color: rgb(245, 239, 239);
+        margin: 60px;
+        height: 2700px;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .content .part1{
+        font-size: 23px;
+    }
+    .content p{
+        font-size: 18px;
+    }
+    hr{
+        margin-top: 50px;
+        height: 2px;
+    }
+    #part2 img{
+       float: left;
+       width: 220px;
+    }
+    #part3 img{
+        width: 220px;
+        float: left;
+    }
+    #part4 img{
+        width: 220px;
+        float: left;
+    }
+    #part5 img{
+        width: 220px;
+        float: left;
+    }    
+    .part6{
+        height: 400px;
+    }
+    .part6-head{
+        margin-left: 5px;
+        font-size: 30px;
+    }
+    .part6-content{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .part7{
+        height: 400px;
+    }
+    .part7-head{
+        margin-left: 5px;
+        font-size: 30px;
+    }
+    .part7-content{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .e-mail{
+        margin-left: 50px;
+    }
+    .e-mail-submit{
+        margin-left: 140px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    footer{
+        height: 250px;
+        margin: 0;
+    }
+    .last{
+        padding: 85px;
+        text-align: center;
+    }
+}

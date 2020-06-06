@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HOME
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="about.css">
+    </head>
+    <body>
+        <div id="navbar">
+            <img id="logo"src="logo.png">
+            <div id="navbar-right">
+                <a href="home.htm">HOME</a>
+                <a class="active" href="about.htm">ABOUT</a c>
+                <a href="#">SMARTPHONES</a>
+                <a href="#">COMPARE</a>
+                <a href="#">MORE</a>
+            </div>
+
+        </div>
+
+        <div class="content" style="margin-top: 210px; padding: 15px 15px;">
+            <h1 class="content-heading"> ABOUT US</h1>
+        </div>
+        <footer id="foot">
+            <h4 class="foot-head">All Rights Reserved</h4>
+        </footer>
+
+      <script>
+            window.onscroll= function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+                    document.getElementById("navbar").style.padding="10px 10px";
+                    document.getElementById("logo").style.fontSize="25px";
+                }
+                else{
+                    document.getElementById("navbar").style.padding="20px 30px";
+                    document.getElementById("logo").style.fontSize= "25px";
+                }
+            }
+
+        </script>
+
+    </body>
+
+</html>
